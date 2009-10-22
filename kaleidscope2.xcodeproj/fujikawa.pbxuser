@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* kaleidscope2AppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {964, 603}}";
+			sepNavSelRange = "{146, 0}";
+			sepNavVisRange = "{0, 1156}";
+			sepNavWindowFrame = "{{15, 51}, {680, 727}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* kaleidscope2AppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1391, 6418}}";
+			sepNavSelRange = "{10036, 0}";
+			sepNavVisRange = "{2353, 1802}";
+			sepNavWindowFrame = "{{15, 51}, {690, 723}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* kaleidscope2 */ = {
+		activeExec = 0;
+		executables = (
+			82690F0E1004CF5F0022A15A /* kaleidscope2 */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = AdHoc;
+		activeExecutable = 82690F0E1004CF5F0022A15A /* kaleidscope2 */;
+		activeSDKPreference = iphoneos3.1;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* kaleidscope2 */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* kaleidscope2 */,
+		);
+		codeSenseManager = 82690F1E1004CF6F0022A15A /* Code sense */;
+		executables = (
+			82690F0E1004CF5F0022A15A /* kaleidscope2 */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					462,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 277616639;
+			PBXWorkspaceStateSaveDate = 277616639;
+		};
+		perUserProjectItems = {
+			823EF91B107396BD00B4D443 /* PlistBookmark */ = 823EF91B107396BD00B4D443 /* PlistBookmark */;
+			8264CFD2107CABB7009CFBE6 /* PlistBookmark */ = 8264CFD2107CABB7009CFBE6 /* PlistBookmark */;
+			8264CFD3107CABB7009CFBE6 /* PBXTextBookmark */ = 8264CFD3107CABB7009CFBE6 /* PBXTextBookmark */;
+			82B253031073964400836762 /* PBXTextBookmark */ = 82B253031073964400836762 /* PBXTextBookmark */;
+			82B54BE7107C43190016DAC3 /* PBXTextBookmark */ = 82B54BE7107C43190016DAC3 /* PBXTextBookmark */;
+			82C3A6741073986C000191AC /* PBXTextBookmark */ = 82C3A6741073986C000191AC /* PBXTextBookmark */;
+			82C3A6761073986C000191AC /* PBXTextBookmark */ = 82C3A6761073986C000191AC /* PBXTextBookmark */;
+			82C3A6771073986C000191AC /* PBXTextBookmark */ = 82C3A6771073986C000191AC /* PBXTextBookmark */;
+			82C3A6781073986C000191AC /* PBXBookmark */ = 82C3A6781073986C000191AC /* PBXBookmark */;
+			82D07B8A108C1834005FFE2E /* PBXTextBookmark */ = 82D07B8A108C1834005FFE2E /* PBXTextBookmark */;
+			82E892561074ADA9007701A0 /* PBXTextBookmark */ = 82E892561074ADA9007701A0 /* PBXTextBookmark */;
+			82F4984310887EB9008E195C /* PBXTextBookmark */ = 82F4984310887EB9008E195C /* PBXTextBookmark */;
+		};
+		sourceControlManager = 82690F1D1004CF6F0022A15A /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {640, 603}}";
+			sepNavSelRange = "{127, 0}";
+			sepNavVisRange = "{0, 360}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* kaleidscope2_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {873, 603}}";
+			sepNavSelRange = "{364, 0}";
+			sepNavVisRange = "{0, 379}";
+		};
+	};
+	8213F40E1069BAB500D9BE59 /* kaleidview.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {621, 599}}";
+			sepNavSelRange = "{133, 0}";
+			sepNavVisRange = "{0, 273}";
+			sepNavWindowFrame = "{{15, 51}, {680, 727}}";
+		};
+	};
+	8213F40F1069BAB500D9BE59 /* kaleidview.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1181, 916}}";
+			sepNavSelRange = "{74, 59}";
+			sepNavVisRange = "{0, 1110}";
+		};
+	};
+	8213F4751069C2A800D9BE59 /* icon.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 51}, {680, 727}}";
+		};
+	};
+	823EF91B107396BD00B4D443 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 82B6431710738E8200D6D11A /* Entitlements.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/fujikawa/Desktop/kaleidscope2/Entitlements.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	8264CFD2107CABB7009CFBE6 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* kaleidscope2-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			LSRequiresIPhoneOS,
+		);
+		name = "/Users/fujikawa/Documents/kaleidscope2/kaleidscope2-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	8264CFD3107CABB7009CFBE6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8264CFD4107CABB7009CFBE6 /* UIImagePickerController.h */;
+		name = "UIImagePickerController.h: 92";
+		rLen = 0;
+		rLoc = 5266;
+		rType = 0;
+		vrLen = 3937;
+		vrLoc = 2069;
+	};
+	8264CFD4107CABB7009CFBE6 /* UIImagePickerController.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UIImagePickerController.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIImagePickerController.h;
+		sourceTree = "<absolute>";
+	};
+	82690F0E1004CF5F0022A15A /* kaleidscope2 */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = kaleidscope2;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	82690F1D1004CF6F0022A15A /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	82690F1E1004CF6F0022A15A /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	82690F2F1004D0EF0022A15A /* README.jp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {640, 603}}";
+			sepNavSelRange = "{189, 0}";
+			sepNavVisRange = "{0, 189}";
+			sepNavWindowFrame = "{{15, 51}, {680, 727}}";
+		};
+	};
+	82B253031073964400836762 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8213F40E1069BAB500D9BE59 /* kaleidview.h */;
+		name = "kaleidview.h: 13";
+		rLen = 0;
+		rLoc = 197;
+		rType = 0;
+		vrLen = 264;
+		vrLoc = 0;
+	};
+	82B54BE7107C43190016DAC3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 82690F2F1004D0EF0022A15A /* README.jp */;
+		name = "README.jp: 10";
+		rLen = 0;
+		rLoc = 189;
+		rType = 0;
+		vrLen = 189;
+		vrLoc = 0;
+	};
+	82C3A6741073986C000191AC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* kaleidscope2AppDelegate.h */;
+		name = "kaleidscope2AppDelegate.h: 7";
+		rLen = 0;
+		rLoc = 146;
+		rType = 0;
+		vrLen = 1156;
+		vrLoc = 0;
+	};
+	82C3A6761073986C000191AC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* kaleidscope2_Prefix.pch */;
+		name = "kaleidscope2_Prefix.pch: 12";
+		rLen = 0;
+		rLoc = 364;
+		rType = 0;
+		vrLen = 379;
+		vrLoc = 0;
+	};
+	82C3A6771073986C000191AC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 7";
+		rLen = 0;
+		rLoc = 127;
+		rType = 0;
+		vrLen = 360;
+		vrLoc = 0;
+	};
+	82C3A6781073986C000191AC /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8213F4751069C2A800D9BE59 /* icon.png */;
+	};
+	82D07B8A108C1834005FFE2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* kaleidscope2AppDelegate.m */;
+		name = "kaleidscope2AppDelegate.m: 244";
+		rLen = 0;
+		rLoc = 10036;
+		rType = 0;
+		vrLen = 1802;
+		vrLoc = 2353;
+	};
+	82E892561074ADA9007701A0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 8213F40F1069BAB500D9BE59 /* kaleidview.m */;
+		name = "kaleidview.m: 6";
+		rLen = 59;
+		rLoc = 74;
+		rType = 0;
+		vrLen = 1110;
+		vrLoc = 0;
+	};
+	82F4984310887EB9008E195C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* kaleidscope2AppDelegate.m */;
+		name = "kaleidscope2AppDelegate.m: 91";
+		rLen = 12;
+		rLoc = 3525;
+		rType = 0;
+		vrLen = 1934;
+		vrLoc = 2369;
+	};
+	8D1107310486CEB800E47090 /* kaleidscope2-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 50}, {690, 723}}";
+		};
+	};
+}

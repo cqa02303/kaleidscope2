@@ -1,0 +1,258 @@
+Tkaleidscope2
+v7
+r0
+t274148874.009836
+cCheck dependencies
+cCpResource build/Release-iphoneos/kaleidscope2.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app/Info.plist kaleidscope2-Info.plist
+cCompileXIB /Users/fujikawa/Desktop/kaleidscope2/MainWindow.xib
+cCompileC build/kaleidscope2.build/Release-iphoneos/kaleidscope2.build/Objects-normal/armv6/main.o /Users/fujikawa/Desktop/kaleidscope2/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/kaleidscope2.build/Release-iphoneos/kaleidscope2.build/Objects-normal/armv6/kaleidscope2AppDelegate.o /Users/fujikawa/Desktop/kaleidscope2/Classes/kaleidscope2AppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app/kaleidscope2 normal armv6
+cGenerateDSYMFile /Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app.dSYM /Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app/kaleidscope2
+cProcessProductPackaging "/Users/fujikawa/Library/MobileDevice/Provisioning Profiles/1D1EBBAD-CB02-41D7-B70A-499D1FB4DBF0.mobileprovision" /Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app/embedded.mobileprovision
+cTouch /Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist /Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/Release-iphoneos/kaleidscope2.build/kaleidscope2.xcent
+cCodeSign /Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk
+c000000004A693C0C0000000000000110
+t1248410636
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist
+c000000004A67E00700000000000000DD
+t1248321543
+s221
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist
+c000000004A67E00700000000000001E5
+t1248321543
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A67EEFE00000000005F4900
+t1248325374
+s6244608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A67F0E60000000000501370
+t1248325862
+s5247856
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004A67F3D700000000001C27F0
+t1248326615
+s1845232
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A6800650000000001B3C300
+t1248329829
+s28558080
+
+N/Users/fujikawa/Desktop/kaleidscope2/Classes/kaleidscope2AppDelegate.h
+c000000004A79019800000000000002C1
+t1249444248
+s705
+i<UIKit/UIKit.h>
+
+N/Users/fujikawa/Desktop/kaleidscope2/Classes/kaleidscope2AppDelegate.m
+c000000004A7D15A60000000000000C7A
+t1249711526
+s3194
+i"kaleidscope2AppDelegate.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/fujikawa/Desktop/kaleidscope2/MainWindow.xib
+c000000004A7D15700000000000006349
+t1249711472
+s25417
+
+N/Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app
+t1252456073
+s340
+
+N/Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app.dSYM
+t1252456072
+s102
+
+N/Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app/Info.plist
+t1252456070
+s788
+
+N/Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app/MainWindow.nib
+t1252456071
+s1640
+
+N/Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app/PkgInfo
+t1252456070
+s8
+
+N/Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app/ResourceRules.plist
+t1252456070
+s485
+
+N/Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app/embedded.mobileprovision
+t1252456072
+s11440
+
+N/Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app/kaleidscope2
+t1252456072
+s21368
+
+N/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/Release-iphoneos/kaleidscope2.build/Objects-normal/armv6/kaleidscope2.LinkFileList
+c000000004AA6F686000000000000010F
+t1252456070
+s271
+
+N/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/Release-iphoneos/kaleidscope2.build/Objects-normal/armv6/kaleidscope2AppDelegate.o
+t1252456072
+s56040
+
+N/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/Release-iphoneos/kaleidscope2.build/Objects-normal/armv6/main.o
+t1252456072
+s6628
+
+N/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/Release-iphoneos/kaleidscope2.build/kaleidscope2.xcent
+t1252456072
+s325
+
+N/Users/fujikawa/Desktop/kaleidscope2/kaleidscope2_Prefix.pch
+c000000004A5497DF00000000000000C1
+t1247057887
+s193
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/fujikawa/Desktop/kaleidscope2/main.m
+c000000004A5497DF000000000000015F
+t1247057887
+s351
+i<UIKit/UIKit.h>
+
+N/Users/fujikawa/Library/MobileDevice/Provisioning Profiles/1D1EBBAD-CB02-41D7-B70A-499D1FB4DBF0.mobileprovision
+c000000004A9B82780000000000002CB0
+t1251705464
+s11440
+
+Nkaleidscope2-Info.plist
+c000000004A76587C0000000000000461
+t1249269884
+s1121
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies274148869#274148870#0(0"0(0#1#0"5284728088564887552#0"0#
+
+CCodeSign /Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app
+s274148872.932934
+e274148874.009590
+r1
+xCodeSign
+x/Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app
+lSLF07#2@48"CodeSign build/Release-iphoneos/kaleidscope2.app274148872#274148874#0(0"0(0#0#76"/Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app4301197600#812"    cd /Users/fujikawa/Desktop/kaleidscope2    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:.:/Users/fujikawa/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/sbin:/usr/sbin:/usr/local/checker-0.219/bin:/usr/local/checker-0.219"    /usr/bin/codesign -f -s "iPhone Developer: Hiroyuki Fujikawa" --resource-rules=/Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app/ResourceRules.plist --entitlements /Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/Release-iphoneos/kaleidscope2.build/kaleidscope2.xcent /Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app0#
+
+CCompileC build/kaleidscope2.build/Release-iphoneos/kaleidscope2.build/Objects-normal/armv6/kaleidscope2AppDelegate.o /Users/fujikawa/Desktop/kaleidscope2/Classes/kaleidscope2AppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s274148871.501870
+e274148872.702348
+r1
+xCompileC
+xbuild/kaleidscope2.build/Release-iphoneos/kaleidscope2.build/Objects-normal/armv6/kaleidscope2AppDelegate.o
+x/Users/fujikawa/Desktop/kaleidscope2/Classes/kaleidscope2AppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oANALYZE: /Users/fujikawa/Desktop/kaleidscope2/Classes/kaleidscope2AppDelegate.m applicationDidFinishLaunching:
+oANALYZE: /Users/fujikawa/Desktop/kaleidscope2/Classes/kaleidscope2AppDelegate.m dealloc
+oANALYZE: /Users/fujikawa/Desktop/kaleidscope2/Classes/kaleidscope2AppDelegate.m showLayerHirency:prefix:
+oANALYZE: /Users/fujikawa/Desktop/kaleidscope2/Classes/kaleidscope2AppDelegate.m showViewHirency:prefix:
+oANALYZE: /Users/fujikawa/Desktop/kaleidscope2/Classes/kaleidscope2AppDelegate.m notificationFireMethod:
+lSLF07#2@78"Compile /Users/fujikawa/Desktop/kaleidscope2/Classes/kaleidscope2AppDelegate.m274148871#274148872#0(512"ANALYZE: /Users/fujikawa/Desktop/kaleidscope2/Classes/kaleidscope2AppDelegate.m applicationDidFinishLaunching:ANALYZE: /Users/fujikawa/Desktop/kaleidscope2/Classes/kaleidscope2AppDelegate.m deallocANALYZE: /Users/fujikawa/Desktop/kaleidscope2/Classes/kaleidscope2AppDelegate.m showLayerHirency:prefix:ANALYZE: /Users/fujikawa/Desktop/kaleidscope2/Classes/kaleidscope2AppDelegate.m showViewHirency:prefix:ANALYZE: /Users/fujikawa/Desktop/kaleidscope2/Classes/kaleidscope2AppDelegate.m notificationFireMethod:0(0#0#70"/Users/fujikawa/Desktop/kaleidscope2/Classes/kaleidscope2AppDelegate.m4301197600#1905"    cd /Users/fujikawa/Desktop/kaleidscope2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:.:/Users/fujikawa/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/sbin:/usr/sbin:/usr/local/checker-0.219/bin:/usr/local/checker-0.219"    /usr/local/checker-0.219/libexec/ccc-analyzer -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/Release-iphoneos/kaleidscope2.build/kaleidscope2-generated-files.hmap -I/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/Release-iphoneos/kaleidscope2.build/kaleidscope2-own-target-headers.hmap -I/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/Release-iphoneos/kaleidscope2.build/kaleidscope2-all-target-headers.hmap -iquote /Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/Release-iphoneos/kaleidscope2.build/kaleidscope2-project-headers.hmap -F/Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos -I/Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/include -I/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/Release-iphoneos/kaleidscope2.build/DerivedSources/armv6 -I/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/Release-iphoneos/kaleidscope2.build/DerivedSources -include /Users/fujikawa/Desktop/kaleidscope2/kaleidscope2_Prefix.pch -c /Users/fujikawa/Desktop/kaleidscope2/Classes/kaleidscope2AppDelegate.m -o /Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/Release-iphoneos/kaleidscope2.build/Objects-normal/armv6/kaleidscope2AppDelegate.o0#
+
+CCompileC build/kaleidscope2.build/Release-iphoneos/kaleidscope2.build/Objects-normal/armv6/main.o /Users/fujikawa/Desktop/kaleidscope2/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s274148871.500444
+e274148872.701987
+r1
+xCompileC
+xbuild/kaleidscope2.build/Release-iphoneos/kaleidscope2.build/Objects-normal/armv6/main.o
+x/Users/fujikawa/Desktop/kaleidscope2/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oANALYZE: /Users/fujikawa/Desktop/kaleidscope2/main.m main
+lSLF07#2@51"Compile /Users/fujikawa/Desktop/kaleidscope2/main.m274148871#274148872#0(58"ANALYZE: /Users/fujikawa/Desktop/kaleidscope2/main.m main0(0#0#43"/Users/fujikawa/Desktop/kaleidscope2/main.m7594595512296108032#1859"    cd /Users/fujikawa/Desktop/kaleidscope2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:.:/Users/fujikawa/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/sbin:/usr/sbin:/usr/local/checker-0.219/bin:/usr/local/checker-0.219"    /usr/local/checker-0.219/libexec/ccc-analyzer -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/Release-iphoneos/kaleidscope2.build/kaleidscope2-generated-files.hmap -I/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/Release-iphoneos/kaleidscope2.build/kaleidscope2-own-target-headers.hmap -I/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/Release-iphoneos/kaleidscope2.build/kaleidscope2-all-target-headers.hmap -iquote /Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/Release-iphoneos/kaleidscope2.build/kaleidscope2-project-headers.hmap -F/Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos -I/Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/include -I/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/Release-iphoneos/kaleidscope2.build/DerivedSources/armv6 -I/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/Release-iphoneos/kaleidscope2.build/DerivedSources -include /Users/fujikawa/Desktop/kaleidscope2/kaleidscope2_Prefix.pch -c /Users/fujikawa/Desktop/kaleidscope2/main.m -o /Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/Release-iphoneos/kaleidscope2.build/Objects-normal/armv6/main.o0#
+
+CCompileXIB /Users/fujikawa/Desktop/kaleidscope2/MainWindow.xib
+s274148870.353288
+e274148871.500232
+r1
+xCompileXIB
+x/Users/fujikawa/Desktop/kaleidscope2/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib274148870#274148871#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#51"/Users/fujikawa/Desktop/kaleidscope2/MainWindow.xib4301197600#618"    cd /Users/fujikawa/Desktop/kaleidscope2    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:.:/Users/fujikawa/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/sbin:/usr/sbin:/usr/local/checker-0.219/bin:/usr/local/checker-0.219"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app/MainWindow.nib /Users/fujikawa/Desktop/kaleidscope2/MainWindow.xib0#
+
+CCpResource build/Release-iphoneos/kaleidscope2.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist
+s274148870.332882
+e274148870.353145
+r1
+xCpResource
+xbuild/Release-iphoneos/kaleidscope2.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist274148870#274148870#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist4913266056747185152#655"    cd /Users/fujikawa/Desktop/kaleidscope2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:.:/Users/fujikawa/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/sbin:/usr/sbin:/usr/local/checker-0.219/bin:/usr/local/checker-0.219"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist /Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app0#
+
+CGenerateDSYMFile /Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app.dSYM /Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app/kaleidscope2
+s274148872.888702
+e274148872.917450
+r1
+xGenerateDSYMFile
+x/Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app.dSYM
+x/Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app/kaleidscope2
+lSLF07#2@114"GenerateDSYMFile build/Release-iphoneos/kaleidscope2.app.dSYM build/Release-iphoneos/kaleidscope2.app/kaleidscope2274148872#274148872#0(0"0(0#0#89"/Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app/kaleidscope24301197600#526"    cd /Users/fujikawa/Desktop/kaleidscope2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:.:/Users/fujikawa/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/sbin:/usr/sbin:/usr/local/checker-0.219/bin:/usr/local/checker-0.219"    /Developer/usr/bin/dsymutil /Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app/kaleidscope2 -o /Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app.dSYM0#
+
+CLd /Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app/kaleidscope2 normal armv6
+s274148872.702849
+e274148872.888450
+r1
+xLd
+x/Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app/kaleidscope2
+xnormal
+xarmv6
+lSLF07#2@94"Link /Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app/kaleidscope2274148872#274148872#0(0"0(0#0#0"4301197600#1066"    cd /Users/fujikawa/Desktop/kaleidscope2    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:.:/Users/fujikawa/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/sbin:/usr/sbin:/usr/local/checker-0.219/bin:/usr/local/checker-0.219"    /usr/local/checker-0.219/libexec/ccc-analyzer -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -L/Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos -F/Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos -filelist /Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/Release-iphoneos/kaleidscope2.build/Objects-normal/armv6/kaleidscope2.LinkFileList -mmacosx-version-min=10.5 -dead_strip -miphoneos-version-min=3.1 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app/kaleidscope20#
+
+CProcessInfoPlistFile /Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app/Info.plist kaleidscope2-Info.plist
+s274148870.338664
+e274148870.344281
+r1
+xProcessInfoPlistFile
+x/Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app/Info.plist
+xkaleidscope2-Info.plist
+lSLF07#2@31"Process kaleidscope2-Info.plist274148870#274148870#0(0"0(0#0#60"/Users/fujikawa/Desktop/kaleidscope2/kaleidscope2-Info.plist12666807751213152#731"    cd /Users/fujikawa/Desktop/kaleidscope2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:.:/Users/fujikawa/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/sbin:/usr/sbin:/usr/local/checker-0.219/bin:/usr/local/checker-0.219"    builtin-infoPlistUtility kaleidscope2-Info.plist -genpkginfo /Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app/ResourceRules.plist -o /Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app/Info.plist0#
+
+CProcessProductPackaging "/Users/fujikawa/Library/MobileDevice/Provisioning Profiles/1D1EBBAD-CB02-41D7-B70A-499D1FB4DBF0.mobileprovision" /Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app/embedded.mobileprovision
+s274148872.917777
+e274148872.919243
+r1
+xProcessProductPackaging
+x/Users/fujikawa/Library/MobileDevice/Provisioning Profiles/1D1EBBAD-CB02-41D7-B70A-499D1FB4DBF0.mobileprovision
+x/Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app/embedded.mobileprovision
+lSLF07#2@202"ProcessProductPackaging "/Users/fujikawa/Library/MobileDevice/Provisioning Profiles/1D1EBBAD-CB02-41D7-B70A-499D1FB4DBF0.mobileprovision" build/Release-iphoneos/kaleidscope2.app/embedded.mobileprovision274148872#274148872#0(0"0(0#0#101"/Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app/embedded.mobileprovision4301197600#580"    cd /Users/fujikawa/Desktop/kaleidscope2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:.:/Users/fujikawa/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/sbin:/usr/sbin:/usr/local/checker-0.219/bin:/usr/local/checker-0.219"    <com.apple.tools.product-pkg-utility> "/Users/fujikawa/Library/MobileDevice/Provisioning Profiles/1D1EBBAD-CB02-41D7-B70A-499D1FB4DBF0.mobileprovision" -o /Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist /Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/Release-iphoneos/kaleidscope2.build/kaleidscope2.xcent
+s274148872.924418
+e274148872.932861
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist
+x/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/Release-iphoneos/kaleidscope2.build/kaleidscope2.xcent
+lSLF07#2@192"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist build/kaleidscope2.build/Release-iphoneos/kaleidscope2.build/kaleidscope2.xcent274148872#274148872#0(0"0(0#0#116"/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/Release-iphoneos/kaleidscope2.build/kaleidscope2.xcent4301197600#596"    cd /Users/fujikawa/Desktop/kaleidscope2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:.:/Users/fujikawa/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/sbin:/usr/sbin:/usr/local/checker-0.219/bin:/usr/local/checker-0.219"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/Release-iphoneos/kaleidscope2.build/kaleidscope2.xcent0#
+
+CTouch /Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app
+s274148872.919377
+e274148872.924172
+r1
+xTouch
+x/Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app
+lSLF07#2@82"Touch /Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app274148872#274148872#0(0"0(0#0#0"4301197600#418"    cd /Users/fujikawa/Desktop/kaleidscope2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:.:/Users/fujikawa/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/sbin:/usr/sbin:/usr/local/checker-0.219/bin:/usr/local/checker-0.219"    /usr/bin/touch -c /Users/fujikawa/Desktop/kaleidscope2/build/Release-iphoneos/kaleidscope2.app0#
+

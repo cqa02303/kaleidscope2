@@ -1,0 +1,653 @@
+Tkaleidscope2
+v7
+r0
+t276495609.875781
+cCheck dependencies
+cCpResource build/AdHoc-iphoneos/kaleidscope2.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/Info.plist kaleidscope2-Info.plist
+cCompileXIB /Users/fujikawa/Documents/kaleidscope2/MainWindow.xib
+cCopyPNGFile /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/icon.png icon.png
+cCopyPlistFile /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/Entitlements.plist Entitlements.plist
+cProcessPCH /var/folders/38/38e1cGM5ElePl9Q2EjYdp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kaleidscope2_Prefix-fqrrkbilpytfkibnuavhgmqgsiwl/kaleidscope2_Prefix.pch.gch kaleidscope2_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/Objects-normal/armv6/main.o /Users/fujikawa/Documents/kaleidscope2/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/Objects-normal/armv6/kaleidscope2AppDelegate.o /Users/fujikawa/Documents/kaleidscope2/Classes/kaleidscope2AppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/Objects-normal/armv6/kaleidview.o /Users/fujikawa/Documents/kaleidscope2/Classes/kaleidview.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/kaleidscope2 normal armv6
+cGenerateDSYMFile /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app.dSYM /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/kaleidscope2
+cProcessProductPackaging "/Users/fujikawa/Library/MobileDevice/Provisioning Profiles/2E77EE26-0C2A-4F3F-9DD2-FE99E2E0C251.mobileprovision" /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/embedded.mobileprovision
+cTouch /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app
+cProcessProductPackaging /Users/fujikawa/Documents/kaleidscope2/Entitlements.plist /Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2.xcent
+cCodeSign /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk
+c000000004AA805BD0000000000000110
+t1252525501
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist
+c000000004A767D3000000000000000DD
+t1249279280
+s221
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist
+c000000004A767D3000000000000001E5
+t1249279280
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A82198D00000000005F4900
+t1250040205
+s6244608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A76566F0000000000501370
+t1249269359
+s5247856
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A7656460000000000001355
+t1249269318
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004A7658A1000000000000007D
+t1249269921
+s125
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004A76596900000000001C27F0
+t1249270121
+s1845232
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A7C6E9C0000000000000788
+t1249668764
+s1928
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A7C6FEF0000000001B3F450
+t1249669103
+s28570704
+
+N/Users/fujikawa/Desktop/kaleidscope2/Classes/kaleidscope2AppDelegate.h
+c000000004AC3609500000000000004A2
+t1254318229
+s1186
+i<UIKit/UIKit.h>
+
+N/Users/fujikawa/Desktop/kaleidscope2/Classes/kaleidscope2AppDelegate.m
+c000000004AC360920000000000004D99
+t1254318226
+s19865
+i"kaleidscope2AppDelegate.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/fujikawa/Desktop/kaleidscope2/Classes/kaleidview.h
+c000000004AC360990000000000000119
+t1254318233
+s281
+i<UIKit/UIKit.h>
+
+N/Users/fujikawa/Desktop/kaleidscope2/Classes/kaleidview.m
+c000000004AC3608F00000000000008A6
+t1254318223
+s2214
+i"kaleidview.h"
+i<QuartzCore/QuartzCore.h>
+i"kaleidscope2AppDelegate.h"
+
+N/Users/fujikawa/Desktop/kaleidscope2/Entitlements.plist
+c00000000496C79ED00000000000000E1
+t1231845869
+s225
+
+N/Users/fujikawa/Desktop/kaleidscope2/MainWindow.xib
+c000000004AC212F5000000000000534E
+t1254232821
+s21326
+
+N/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app
+t1254377661
+s408
+
+N/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app.dSYM
+t1254319389
+s102
+
+N/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/Entitlements.plist
+t1254319386
+s62
+
+N/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/Info.plist
+t1254319386
+s824
+
+N/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/MainWindow.nib
+t1254319386
+s1531
+
+N/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/PkgInfo
+t1254319386
+s8
+
+N/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/ResourceRules.plist
+t1254319386
+s485
+
+N/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/embedded.mobileprovision
+t1254319389
+s10477
+
+N/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/icon.png
+t1254319386
+s10733
+
+N/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/kaleidscope2
+t1254319389
+s41504
+
+N/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/Objects-normal/armv6/kaleidscope2.LinkFileList
+c000000004AC3651A000000000000018D
+t1254319386
+s397
+
+N/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/Objects-normal/armv6/kaleidscope2AppDelegate.o
+t1254319388
+s99008
+
+N/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/Objects-normal/armv6/kaleidview.o
+t1254319388
+s38492
+
+N/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/Objects-normal/armv6/main.o
+t1254319387
+s6628
+
+N/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2.xcent
+t1254319389
+s329
+
+N/Users/fujikawa/Desktop/kaleidscope2/icon.png
+c00000000498ECF31000000000001C366
+t1234095921
+s115558
+
+N/Users/fujikawa/Desktop/kaleidscope2/kaleidscope2_Prefix.pch
+c000000004AA89A3A000000000000017B
+t1252563514
+s379
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/fujikawa/Desktop/kaleidscope2/main.m
+c000000004AC360A50000000000000170
+t1254318245
+s368
+i<UIKit/UIKit.h>
+
+N/Users/fujikawa/Documents/kaleidscope2/Classes/kaleidscope2AppDelegate.h
+c000000004AC3609500000000000004A2
+t1254318229
+s1186
+i<UIKit/UIKit.h>
+
+N/Users/fujikawa/Documents/kaleidscope2/Classes/kaleidscope2AppDelegate.m
+c000000004AC5CC6000000000000050B1
+t1254476896
+s20657
+i"kaleidscope2AppDelegate.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/fujikawa/Documents/kaleidscope2/Classes/kaleidview.h
+c000000004AC360990000000000000119
+t1254318233
+s281
+i<UIKit/UIKit.h>
+
+N/Users/fujikawa/Documents/kaleidscope2/Classes/kaleidview.m
+c000000004AC3608F00000000000008A6
+t1254318223
+s2214
+i"kaleidview.h"
+i<QuartzCore/QuartzCore.h>
+i"kaleidscope2AppDelegate.h"
+
+N/Users/fujikawa/Documents/kaleidscope2/Entitlements.plist
+c00000000496C79ED00000000000000E1
+t1231845869
+s225
+
+N/Users/fujikawa/Documents/kaleidscope2/MainWindow.xib
+c000000004AC212F5000000000000534E
+t1254232821
+s21326
+
+N/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app
+t1254802809
+s408
+
+N/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app.dSYM
+t1254802808
+s102
+
+N/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/Entitlements.plist
+t1254802806
+s62
+
+N/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/Info.plist
+t1254802806
+s824
+
+N/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/MainWindow.nib
+t1254802806
+s1531
+
+N/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/PkgInfo
+t1254802806
+s8
+
+N/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/ResourceRules.plist
+t1254802806
+s485
+
+N/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/embedded.mobileprovision
+t1254802808
+s10537
+
+N/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/icon.png
+t1254802806
+s10733
+
+N/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/kaleidscope2
+t1254802808
+s35632
+
+N/Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/Objects-normal/armv6/kaleidscope2.LinkFileList
+c000000004ACAC5760000000000000193
+t1254802806
+s403
+
+N/Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/Objects-normal/armv6/kaleidscope2AppDelegate.o
+t1254802808
+s98568
+
+N/Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/Objects-normal/armv6/kaleidview.o
+t1254802807
+s38496
+
+N/Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/Objects-normal/armv6/main.o
+t1254802807
+s6632
+
+N/Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2.xcent
+t1254802808
+s329
+
+N/Users/fujikawa/Documents/kaleidscope2/icon.png
+c00000000498ECF31000000000001C366
+t1234095921
+s115558
+
+N/Users/fujikawa/Documents/kaleidscope2/kaleidscope2_Prefix.pch
+c000000004AA89A3A000000000000017B
+t1252563514
+s379
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/fujikawa/Documents/kaleidscope2/main.m
+c000000004AC360A50000000000000170
+t1254318245
+s368
+i<UIKit/UIKit.h>
+
+N/Users/fujikawa/Library/MobileDevice/Provisioning Profiles/124DB37E-17E1-42A5-BB17-18E22EC70F4C.mobileprovision
+c000000004ABB19B3000000000000288F
+t1253775795
+s10383
+
+N/Users/fujikawa/Library/MobileDevice/Provisioning Profiles/2E77EE26-0C2A-4F3F-9DD2-FE99E2E0C251.mobileprovision
+c000000004ACA9FB20000000000002929
+t1254793138
+s10537
+
+N/Users/fujikawa/Library/MobileDevice/Provisioning Profiles/D4BA70B8-D9D9-4ED4-9542-063A778741CC.mobileprovision
+c000000004AC354E800000000000028B1
+t1254315240
+s10417
+
+N/Users/fujikawa/Library/MobileDevice/Provisioning Profiles/F3CCC392-C5BA-4CD8-9C41-AF48A0E1F44C.mobileprovision
+c000000004AC364E100000000000028ED
+t1254319329
+s10477
+
+N/var/folders/38/38e1cGM5ElePl9Q2EjYdp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kaleidscope2_Prefix-fqrrkbilpytfkibnuavhgmqgsiwl/kaleidscope2_Prefix.pch.gch
+t1254802807
+s7700664
+
+N/var/folders/38/38e1cGM5ElePl9Q2EjYdp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kaleidscope2_Prefix-gsxomxuosfmguecrpovxaaqjolcb/kaleidscope2_Prefix.pch.gch
+t1254319387
+s7700664
+
+Nkaleidscope2-Info.plist
+c000000004AB9ACF00000000000000453
+t1253682416
+s1107
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies276495606#276495606#0(0"0(0#1#0"4300882208#0"0#
+
+CCodeSign /Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app
+s276012189.286158
+e276012190.434195
+r1
+xCodeSign
+x/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app
+lSLF07#2@46"CodeSign build/AdHoc-iphoneos/kaleidscope2.app276012189#276012190#0(0"0(0#0#74"/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app4300882208#658"    cd /Users/fujikawa/Desktop/kaleidscope2    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Distribution: Hiroyuki Fujikawa" --resource-rules=/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/ResourceRules.plist --entitlements /Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2.xcent /Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app0#
+
+CCodeSign /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app
+s276495608.690896
+e276495609.875725
+r1
+xCodeSign
+x/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app
+lSLF07#2@46"CodeSign build/AdHoc-iphoneos/kaleidscope2.app276495608#276495609#0(0"0(0#0#76"/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app4300882208#666"    cd /Users/fujikawa/Documents/kaleidscope2    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Distribution: Hiroyuki Fujikawa" --resource-rules=/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/ResourceRules.plist --entitlements /Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2.xcent /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app0#
+
+CCompileC build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/Objects-normal/armv6/kaleidscope2AppDelegate.o /Users/fujikawa/Desktop/kaleidscope2/Classes/kaleidscope2AppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s276012187.940867
+e276012188.896316
+r1
+xCompileC
+xbuild/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/Objects-normal/armv6/kaleidscope2AppDelegate.o
+x/Users/fujikawa/Desktop/kaleidscope2/Classes/kaleidscope2AppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/fujikawa/Desktop/kaleidscope2/Classes/kaleidscope2AppDelegate.m276012187#276012188#0(0"0(0#0#70"/Users/fujikawa/Desktop/kaleidscope2/Classes/kaleidscope2AppDelegate.m4300882208#1865"    cd /Users/fujikawa/Desktop/kaleidscope2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2-generated-files.hmap -I/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2-own-target-headers.hmap -I/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2-all-target-headers.hmap -iquote /Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2-project-headers.hmap -F/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos -I/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/include -I/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/DerivedSources/armv6 -I/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/DerivedSources -include /var/folders/38/38e1cGM5ElePl9Q2EjYdp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kaleidscope2_Prefix-gsxomxuosfmguecrpovxaaqjolcb/kaleidscope2_Prefix.pch -c /Users/fujikawa/Desktop/kaleidscope2/Classes/kaleidscope2AppDelegate.m -o /Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/Objects-normal/armv6/kaleidscope2AppDelegate.o0#
+
+CCompileC build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/Objects-normal/armv6/kaleidscope2AppDelegate.o /Users/fujikawa/Documents/kaleidscope2/Classes/kaleidscope2AppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s276495607.681403
+e276495608.490446
+r1
+xCompileC
+xbuild/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/Objects-normal/armv6/kaleidscope2AppDelegate.o
+x/Users/fujikawa/Documents/kaleidscope2/Classes/kaleidscope2AppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/fujikawa/Documents/kaleidscope2/Classes/kaleidscope2AppDelegate.m276495607#276495608#0(0"0(0#0#72"/Users/fujikawa/Documents/kaleidscope2/Classes/kaleidscope2AppDelegate.m4300882208#1887"    cd /Users/fujikawa/Documents/kaleidscope2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2-generated-files.hmap -I/Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2-own-target-headers.hmap -I/Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2-all-target-headers.hmap -iquote /Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2-project-headers.hmap -F/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos -I/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/include -I/Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/DerivedSources/armv6 -I/Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/DerivedSources -include /var/folders/38/38e1cGM5ElePl9Q2EjYdp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kaleidscope2_Prefix-fqrrkbilpytfkibnuavhgmqgsiwl/kaleidscope2_Prefix.pch -c /Users/fujikawa/Documents/kaleidscope2/Classes/kaleidscope2AppDelegate.m -o /Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/Objects-normal/armv6/kaleidscope2AppDelegate.o0#
+
+CCompileC build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/Objects-normal/armv6/kaleidview.o /Users/fujikawa/Desktop/kaleidscope2/Classes/kaleidview.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s276012188.004367
+e276012188.123346
+r1
+xCompileC
+xbuild/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/Objects-normal/armv6/kaleidview.o
+x/Users/fujikawa/Desktop/kaleidscope2/Classes/kaleidview.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/fujikawa/Desktop/kaleidscope2/Classes/kaleidview.m276012188#276012188#0(0"0(0#0#57"/Users/fujikawa/Desktop/kaleidscope2/Classes/kaleidview.m4300882208#1839"    cd /Users/fujikawa/Desktop/kaleidscope2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2-generated-files.hmap -I/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2-own-target-headers.hmap -I/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2-all-target-headers.hmap -iquote /Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2-project-headers.hmap -F/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos -I/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/include -I/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/DerivedSources/armv6 -I/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/DerivedSources -include /var/folders/38/38e1cGM5ElePl9Q2EjYdp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kaleidscope2_Prefix-gsxomxuosfmguecrpovxaaqjolcb/kaleidscope2_Prefix.pch -c /Users/fujikawa/Desktop/kaleidscope2/Classes/kaleidview.m -o /Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/Objects-normal/armv6/kaleidview.o0#
+
+CCompileC build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/Objects-normal/armv6/kaleidview.o /Users/fujikawa/Documents/kaleidscope2/Classes/kaleidview.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s276495607.759010
+e276495607.868106
+r1
+xCompileC
+xbuild/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/Objects-normal/armv6/kaleidview.o
+x/Users/fujikawa/Documents/kaleidscope2/Classes/kaleidview.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/fujikawa/Documents/kaleidscope2/Classes/kaleidview.m276495607#276495607#0(0"0(0#0#59"/Users/fujikawa/Documents/kaleidscope2/Classes/kaleidview.m4300882208#1861"    cd /Users/fujikawa/Documents/kaleidscope2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2-generated-files.hmap -I/Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2-own-target-headers.hmap -I/Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2-all-target-headers.hmap -iquote /Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2-project-headers.hmap -F/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos -I/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/include -I/Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/DerivedSources/armv6 -I/Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/DerivedSources -include /var/folders/38/38e1cGM5ElePl9Q2EjYdp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kaleidscope2_Prefix-fqrrkbilpytfkibnuavhgmqgsiwl/kaleidscope2_Prefix.pch -c /Users/fujikawa/Documents/kaleidscope2/Classes/kaleidview.m -o /Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/Objects-normal/armv6/kaleidview.o0#
+
+CCompileC build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/Objects-normal/armv6/main.o /Users/fujikawa/Desktop/kaleidscope2/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s276012187.939467
+e276012188.004248
+r1
+xCompileC
+xbuild/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/Objects-normal/armv6/main.o
+x/Users/fujikawa/Desktop/kaleidscope2/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/fujikawa/Desktop/kaleidscope2/main.m276012187#276012188#0(0"0(0#0#43"/Users/fujikawa/Desktop/kaleidscope2/main.m4300882208#1819"    cd /Users/fujikawa/Desktop/kaleidscope2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2-generated-files.hmap -I/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2-own-target-headers.hmap -I/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2-all-target-headers.hmap -iquote /Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2-project-headers.hmap -F/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos -I/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/include -I/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/DerivedSources/armv6 -I/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/DerivedSources -include /var/folders/38/38e1cGM5ElePl9Q2EjYdp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kaleidscope2_Prefix-gsxomxuosfmguecrpovxaaqjolcb/kaleidscope2_Prefix.pch -c /Users/fujikawa/Desktop/kaleidscope2/main.m -o /Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/Objects-normal/armv6/main.o /Users/fujikawa/Documents/kaleidscope2/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s276495607.680013
+e276495607.758890
+r1
+xCompileC
+xbuild/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/Objects-normal/armv6/main.o
+x/Users/fujikawa/Documents/kaleidscope2/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/fujikawa/Documents/kaleidscope2/main.m276495607#276495607#0(0"0(0#0#45"/Users/fujikawa/Documents/kaleidscope2/main.m4300882208#1841"    cd /Users/fujikawa/Documents/kaleidscope2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2-generated-files.hmap -I/Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2-own-target-headers.hmap -I/Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2-all-target-headers.hmap -iquote /Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2-project-headers.hmap -F/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos -I/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/include -I/Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/DerivedSources/armv6 -I/Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/DerivedSources -include /var/folders/38/38e1cGM5ElePl9Q2EjYdp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kaleidscope2_Prefix-fqrrkbilpytfkibnuavhgmqgsiwl/kaleidscope2_Prefix.pch -c /Users/fujikawa/Documents/kaleidscope2/main.m -o /Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/Objects-normal/armv6/main.o0#
+
+CCompileXIB /Users/fujikawa/Desktop/kaleidscope2/MainWindow.xib
+s276012186.176501
+e276012186.612278
+r1
+xCompileXIB
+x/Users/fujikawa/Desktop/kaleidscope2/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib276012186#276012186#0(0"0(0#0#51"/Users/fujikawa/Desktop/kaleidscope2/MainWindow.xib4300882208#465"    cd /Users/fujikawa/Desktop/kaleidscope2    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/MainWindow.nib /Users/fujikawa/Desktop/kaleidscope2/MainWindow.xib0#
+
+CCompileXIB /Users/fujikawa/Documents/kaleidscope2/MainWindow.xib
+s276495606.517860
+e276495606.869905
+r1
+xCompileXIB
+x/Users/fujikawa/Documents/kaleidscope2/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib276495606#276495606#0(0"0(0#0#53"/Users/fujikawa/Documents/kaleidscope2/MainWindow.xib4300882208#471"    cd /Users/fujikawa/Documents/kaleidscope2    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/MainWindow.nib /Users/fujikawa/Documents/kaleidscope2/MainWindow.xib0#
+
+CCopyPNGFile /Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/icon.png icon.png
+s276012186.177249
+e276012186.239972
+r1
+xCopyPNGFile
+x/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/icon.png
+xicon.png
+lSLF07#2@67"CopyPNGFile build/AdHoc-iphoneos/kaleidscope2.app/icon.png icon.png276012186#276012186#0(0"0(0#0#45"/Users/fujikawa/Desktop/kaleidscope2/icon.png4300882208#555"    cd /Users/fujikawa/Desktop/kaleidscope2    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/fujikawa/Desktop/kaleidscope2/icon.png /Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/icon.png0#
+
+CCopyPNGFile /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/icon.png icon.png
+s276495606.518743
+e276495606.553864
+r1
+xCopyPNGFile
+x/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/icon.png
+xicon.png
+lSLF07#2@67"CopyPNGFile build/AdHoc-iphoneos/kaleidscope2.app/icon.png icon.png276495606#276495606#0(0"0(0#0#47"/Users/fujikawa/Documents/kaleidscope2/icon.png4300882208#561"    cd /Users/fujikawa/Documents/kaleidscope2    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/fujikawa/Documents/kaleidscope2/icon.png /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/icon.png0#
+
+CCopyPlistFile /Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/Entitlements.plist Entitlements.plist
+s276012186.240103
+e276012186.350800
+r1
+xCopyPlistFile
+x/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/Entitlements.plist
+xEntitlements.plist
+lSLF07#2@23"Copy Entitlements.plist276012186#276012186#0(0"0(0#0#55"/Users/fujikawa/Desktop/kaleidscope2/Entitlements.plist4300882208#380"    cd /Users/fujikawa/Desktop/kaleidscope2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Entitlements.plist --outdir /Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app0#
+
+CCopyPlistFile /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/Entitlements.plist Entitlements.plist
+s276495606.553979
+e276495606.588658
+r1
+xCopyPlistFile
+x/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/Entitlements.plist
+xEntitlements.plist
+lSLF07#2@23"Copy Entitlements.plist276495606#276495606#0(0"0(0#0#57"/Users/fujikawa/Documents/kaleidscope2/Entitlements.plist4300882208#384"    cd /Users/fujikawa/Documents/kaleidscope2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Entitlements.plist --outdir /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app0#
+
+CCpResource build/AdHoc-iphoneos/kaleidscope2.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist
+s276495606.508938
+e276495606.517778
+r1
+xCpResource
+xbuild/AdHoc-iphoneos/kaleidscope2.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist276495606#276495606#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist4300882208#506"    cd /Users/fujikawa/Documents/kaleidscope2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/ResourceRules.plist /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app0#
+
+CGenerateDSYMFile /Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app.dSYM /Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/kaleidscope2
+s276012189.254424
+e276012189.278840
+r1
+xGenerateDSYMFile
+x/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app.dSYM
+x/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/kaleidscope2
+lSLF07#2@110"GenerateDSYMFile build/AdHoc-iphoneos/kaleidscope2.app.dSYM build/AdHoc-iphoneos/kaleidscope2.app/kaleidscope2276012189#276012189#0(0"0(0#0#87"/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/kaleidscope24300882208#371"    cd /Users/fujikawa/Desktop/kaleidscope2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/kaleidscope2 -o /Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app.dSYM0#
+
+CGenerateDSYMFile /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app.dSYM /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/kaleidscope2
+s276495608.666781
+e276495608.684073
+r1
+xGenerateDSYMFile
+x/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app.dSYM
+x/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/kaleidscope2
+lSLF07#2@110"GenerateDSYMFile build/AdHoc-iphoneos/kaleidscope2.app.dSYM build/AdHoc-iphoneos/kaleidscope2.app/kaleidscope2276495608#276495608#0(0"0(0#0#89"/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/kaleidscope24300882208#377"    cd /Users/fujikawa/Documents/kaleidscope2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/kaleidscope2 -o /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app.dSYM0#
+
+CLd /Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/kaleidscope2 normal armv6
+s276012188.896425
+e276012189.254313
+r1
+xLd
+x/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/kaleidscope2
+xnormal
+xarmv6
+lSLF07#2@92"Link /Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/kaleidscope2276012188#276012189#0(0"0(0#0#0"4300882208#926"    cd /Users/fujikawa/Desktop/kaleidscope2    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -L/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos -F/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos -filelist /Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/Objects-normal/armv6/kaleidscope2.LinkFileList -mmacosx-version-min=10.5 -dead_strip -miphoneos-version-min=3.1 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/kaleidscope20#
+
+CLd /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/kaleidscope2 normal armv6
+s276495608.490608
+e276495608.666625
+r1
+xLd
+x/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/kaleidscope2
+xnormal
+xarmv6
+lSLF07#2@94"Link /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/kaleidscope2276495608#276495608#0(0"0(0#0#0"4300882208#936"    cd /Users/fujikawa/Documents/kaleidscope2    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -L/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos -F/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos -filelist /Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/Objects-normal/armv6/kaleidscope2.LinkFileList -mmacosx-version-min=10.5 -dead_strip -miphoneos-version-min=3.1 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/kaleidscope20#
+
+CProcessInfoPlistFile /Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/Info.plist kaleidscope2-Info.plist
+s276012186.167695
+e276012186.176416
+r1
+xProcessInfoPlistFile
+x/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/Info.plist
+xkaleidscope2-Info.plist
+lSLF07#2@31"Process kaleidscope2-Info.plist276012186#276012186#0(0"0(0#0#60"/Users/fujikawa/Desktop/kaleidscope2/kaleidscope2-Info.plist4300882208#574"    cd /Users/fujikawa/Desktop/kaleidscope2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility kaleidscope2-Info.plist -genpkginfo /Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/ResourceRules.plist -o /Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/Info.plist kaleidscope2-Info.plist
+s276495606.510008
+e276495606.514560
+r1
+xProcessInfoPlistFile
+x/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/Info.plist
+xkaleidscope2-Info.plist
+lSLF07#2@31"Process kaleidscope2-Info.plist276495606#276495606#0(0"0(0#0#62"/Users/fujikawa/Documents/kaleidscope2/kaleidscope2-Info.plist4300882208#582"    cd /Users/fujikawa/Documents/kaleidscope2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility kaleidscope2-Info.plist -genpkginfo /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/ResourceRules.plist -o /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/Info.plist0#
+
+CProcessPCH /var/folders/38/38e1cGM5ElePl9Q2EjYdp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kaleidscope2_Prefix-fqrrkbilpytfkibnuavhgmqgsiwl/kaleidscope2_Prefix.pch.gch kaleidscope2_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s276495606.870049
+e276495607.679901
+r1
+xProcessPCH
+x/var/folders/38/38e1cGM5ElePl9Q2EjYdp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kaleidscope2_Prefix-fqrrkbilpytfkibnuavhgmqgsiwl/kaleidscope2_Prefix.pch.gch
+xkaleidscope2_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile kaleidscope2_Prefix.pch276495606#276495607#0(0"0(0#0#62"/Users/fujikawa/Documents/kaleidscope2/kaleidscope2_Prefix.pch4300882208#1734"    cd /Users/fujikawa/Documents/kaleidscope2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2-generated-files.hmap -I/Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2-own-target-headers.hmap -I/Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2-all-target-headers.hmap -iquote /Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2-project-headers.hmap -F/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos -I/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/include -I/Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/DerivedSources/armv6 -I/Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/DerivedSources -c /Users/fujikawa/Documents/kaleidscope2/kaleidscope2_Prefix.pch -o /var/folders/38/38e1cGM5ElePl9Q2EjYdp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kaleidscope2_Prefix-fqrrkbilpytfkibnuavhgmqgsiwl/kaleidscope2_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/38/38e1cGM5ElePl9Q2EjYdp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kaleidscope2_Prefix-gsxomxuosfmguecrpovxaaqjolcb/kaleidscope2_Prefix.pch.gch kaleidscope2_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s276012186.612505
+e276012187.939212
+r1
+xProcessPCH
+x/var/folders/38/38e1cGM5ElePl9Q2EjYdp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kaleidscope2_Prefix-gsxomxuosfmguecrpovxaaqjolcb/kaleidscope2_Prefix.pch.gch
+xkaleidscope2_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile kaleidscope2_Prefix.pch276012186#276012187#0(0"0(0#0#60"/Users/fujikawa/Desktop/kaleidscope2/kaleidscope2_Prefix.pch4300882208#1714"    cd /Users/fujikawa/Desktop/kaleidscope2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2-generated-files.hmap -I/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2-own-target-headers.hmap -I/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2-all-target-headers.hmap -iquote /Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2-project-headers.hmap -F/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos -I/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/include -I/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/DerivedSources/armv6 -I/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/DerivedSources -c /Users/fujikawa/Desktop/kaleidscope2/kaleidscope2_Prefix.pch -o /var/folders/38/38e1cGM5ElePl9Q2EjYdp++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/kaleidscope2_Prefix-gsxomxuosfmguecrpovxaaqjolcb/kaleidscope2_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/fujikawa/Library/MobileDevice/Provisioning Profiles/124DB37E-17E1-42A5-BB17-18E22EC70F4C.mobileprovision" /Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging "/Users/fujikawa/Library/MobileDevice/Provisioning Profiles/2E77EE26-0C2A-4F3F-9DD2-FE99E2E0C251.mobileprovision" /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/embedded.mobileprovision
+s276495608.684189
+e276495608.685588
+r1
+xProcessProductPackaging
+x/Users/fujikawa/Library/MobileDevice/Provisioning Profiles/2E77EE26-0C2A-4F3F-9DD2-FE99E2E0C251.mobileprovision
+x/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/embedded.mobileprovision
+lSLF07#2@200"ProcessProductPackaging "/Users/fujikawa/Library/MobileDevice/Provisioning Profiles/2E77EE26-0C2A-4F3F-9DD2-FE99E2E0C251.mobileprovision" build/AdHoc-iphoneos/kaleidscope2.app/embedded.mobileprovision276495608#276495608#0(0"0(0#0#101"/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/embedded.mobileprovision4300882208#431"    cd /Users/fujikawa/Documents/kaleidscope2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/fujikawa/Library/MobileDevice/Provisioning Profiles/2E77EE26-0C2A-4F3F-9DD2-FE99E2E0C251.mobileprovision" -o /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/fujikawa/Library/MobileDevice/Provisioning Profiles/D4BA70B8-D9D9-4ED4-9542-063A778741CC.mobileprovision" /Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/embedded.mobileprovision
+s276008082.564947
+e276008082.567989
+r1
+xProcessProductPackaging
+x/Users/fujikawa/Library/MobileDevice/Provisioning Profiles/D4BA70B8-D9D9-4ED4-9542-063A778741CC.mobileprovision
+x/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/embedded.mobileprovision
+lSLF07#2@200"ProcessProductPackaging "/Users/fujikawa/Library/MobileDevice/Provisioning Profiles/D4BA70B8-D9D9-4ED4-9542-063A778741CC.mobileprovision" build/AdHoc-iphoneos/kaleidscope2.app/embedded.mobileprovision276008082#276008082#0(0"0(0#0#99"/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/embedded.mobileprovision4300882208#427"    cd /Users/fujikawa/Desktop/kaleidscope2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/fujikawa/Library/MobileDevice/Provisioning Profiles/D4BA70B8-D9D9-4ED4-9542-063A778741CC.mobileprovision" -o /Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/fujikawa/Library/MobileDevice/Provisioning Profiles/F3CCC392-C5BA-4CD8-9C41-AF48A0E1F44C.mobileprovision" /Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/embedded.mobileprovision
+s276012189.278959
+e276012189.280370
+r1
+xProcessProductPackaging
+x/Users/fujikawa/Library/MobileDevice/Provisioning Profiles/F3CCC392-C5BA-4CD8-9C41-AF48A0E1F44C.mobileprovision
+x/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/embedded.mobileprovision
+lSLF07#2@200"ProcessProductPackaging "/Users/fujikawa/Library/MobileDevice/Provisioning Profiles/F3CCC392-C5BA-4CD8-9C41-AF48A0E1F44C.mobileprovision" build/AdHoc-iphoneos/kaleidscope2.app/embedded.mobileprovision276012189#276012189#0(0"0(0#0#99"/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/embedded.mobileprovision4300882208#427"    cd /Users/fujikawa/Desktop/kaleidscope2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/fujikawa/Library/MobileDevice/Provisioning Profiles/F3CCC392-C5BA-4CD8-9C41-AF48A0E1F44C.mobileprovision" -o /Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/fujikawa/Library/MobileDevice/Provisioning Profiles/F3CCC392-C5BA-4CD8-9C41-AF48A0E1F44C.mobileprovision" /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist /Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2.xcent
+s276008082.574028
+e276008082.576271
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist
+x/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2.xcent
+lSLF07#2@190"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2.xcent276008082#276008082#0(0"0(0#0#114"/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2.xcent4300882208#443"    cd /Users/fujikawa/Desktop/kaleidscope2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2.xcent0#
+
+CProcessProductPackaging /Users/fujikawa/Desktop/kaleidscope2/Entitlements.plist /Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2.xcent
+s276012189.284466
+e276012189.286091
+r1
+xProcessProductPackaging
+x/Users/fujikawa/Desktop/kaleidscope2/Entitlements.plist
+x/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2.xcent
+lSLF07#2@120"ProcessProductPackaging Entitlements.plist build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2.xcent276012189#276012189#0(0"0(0#0#114"/Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2.xcent4300882208#410"    cd /Users/fujikawa/Desktop/kaleidscope2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Users/fujikawa/Desktop/kaleidscope2/Entitlements.plist -entitlements -format xml -o /Users/fujikawa/Desktop/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2.xcent0#
+
+CProcessProductPackaging /Users/fujikawa/Documents/kaleidscope2/Entitlements.plist /Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2.xcent
+s276495608.689280
+e276495608.690831
+r1
+xProcessProductPackaging
+x/Users/fujikawa/Documents/kaleidscope2/Entitlements.plist
+x/Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2.xcent
+lSLF07#2@120"ProcessProductPackaging Entitlements.plist build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2.xcent276495608#276495608#0(0"0(0#0#116"/Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2.xcent4300882208#416"    cd /Users/fujikawa/Documents/kaleidscope2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Users/fujikawa/Documents/kaleidscope2/Entitlements.plist -entitlements -format xml -o /Users/fujikawa/Documents/kaleidscope2/build/kaleidscope2.build/AdHoc-iphoneos/kaleidscope2.build/kaleidscope2.xcent0#
+
+CTouch /Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app
+s276012189.280458
+e276012189.284369
+r1
+xTouch
+x/Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app
+lSLF07#2@80"Touch /Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app276012189#276012189#0(0"0(0#0#0"4300882208#265"    cd /Users/fujikawa/Desktop/kaleidscope2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/fujikawa/Desktop/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app0#
+
+CTouch /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app
+s276495608.685663
+e276495608.689190
+r1
+xTouch
+x/Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app
+lSLF07#2@82"Touch /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app276495608#276495608#0(0"0(0#0#0"4300882208#269"    cd /Users/fujikawa/Documents/kaleidscope2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/fujikawa/Documents/kaleidscope2/build/AdHoc-iphoneos/kaleidscope2.app0#
+

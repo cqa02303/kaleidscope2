@@ -1,0 +1,14 @@
+//
+// Prefix header for all source files of the 'kaleidscope2' target in the 'kaleidscope2' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+
+	#define localizedString(key, str) [[NSBundle mainBundle] localizedStringForKey: (key) value: (str) table: @"InfoPlist"]
+	#ifndef DEBUG
+		#define NSLog(...); /* NSLog(...); */
+	#endif
+
+#endif
